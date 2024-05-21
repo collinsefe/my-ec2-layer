@@ -32,6 +32,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Terraform Apply
-        run: terraform apply
+        run: terraform plan
       
     
